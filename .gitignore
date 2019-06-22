@@ -36,3 +36,8 @@
 
 main.DSYM
 main
+
+build
+lib/*
+bin/*
+.DS_Store

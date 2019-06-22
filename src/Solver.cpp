@@ -18,17 +18,17 @@ int *Solver::run()
 {
     // Running all the tests.
     if (!this->test(A_, A_, A_, A_, 4))
-        throw AAAA_TEST_FAILED;
+        throw TEST_AAAA_FAILED;
     if (!this->test(B_, B_, B_, B_, 8))
-        throw BBBB_TEST_FAILED;
+        throw TEST_BBBB_FAILED;
     if (!this->test(C_, C_, C_, C_, 0))
-        throw CCCC_TEST_FAILED;
+        throw TEST_CCCC_FAILED;
     if (!this->test(D_, D_, D_, D_, 4))
-        throw DDDD_TEST_FAILED;
+        throw TEST_DDDD_FAILED;
     if (!this->test(A_, C_, A_, C_, 2))
-        throw ACAC_TEST_FAILED;
+        throw TEST_ACAC_FAILED;
     if (!this->test(A_, B_, C_, D_, 4))
-        throw ABCD_TEST_FAILED;
+        throw TEST_ABCD_FAILED;
     // Solving safe numbers.
     int *result = new int[4];
     result[0] = this->solve(C_, B_, D_, A_);

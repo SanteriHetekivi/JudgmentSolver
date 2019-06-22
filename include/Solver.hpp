@@ -12,6 +12,5 @@ private:
     int A_, B_, C_, D_;
     bool test(int, int, int, int, int);
     int solve(int, int, int, int);
-    int getNumber();
 };
 #endif

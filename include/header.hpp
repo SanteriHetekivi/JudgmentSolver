@@ -3,7 +3,8 @@
 
 #include "iostream.hpp"
 #include "Exeption.hpp"
-#include "Solver.cpp"
-#include "Tool.cpp"
+#include "Solver.hpp"
+#include "Solver2.hpp"
+#include "Tool.hpp"
 
 #endif
